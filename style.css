@@ -34,3 +34,24 @@ cabecalho{
     font-size: 0.9rem;
     transition: transform 0.2s;
 }
+.problema
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 5%;
+    min-height: 80vh;
+    gap: 30px;
+}
+
+
+.problema-texto{
+    flex:1;
+}
+
+.problema-titulo{
+    font-size: 3rem;
+    color: green
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
